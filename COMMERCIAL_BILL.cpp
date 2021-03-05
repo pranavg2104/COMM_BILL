@@ -14,10 +14,10 @@ int main()
     cin>>contract_demand;
     cout<<"\n Enter the Billed Demand and Units Consumed:";
     cin>>billed_demand>>units_consumed;
-    cout<<"\n Consumer Number:"<<consumer_number;
-    cout<<"\n Contract Demand:"<<contract_demand;
     bill_amount=BILL(billed_demand,units_consumed);
-    cout<<"\n Total Bill Amount to be paid:"<<bill_amount;
+    cout<<"\n \n Consumer Number:"<<consumer_number;
+    cout<<"\n Contract Demand:"<<contract_demand;
+    cout<<"\n \n Total Bill Amount to be paid:"<<bill_amount;
     return 0;
 }
 int BILL(int billed_demand, int units_consumed)
